@@ -84,7 +84,7 @@ var util = {
  * @pattern : singleton
  * @return  : object
 */
-session: (function() {
+session = (function() {
 
 	// take JSON object, stringify it and save it to cookie
 	function save(session) {
